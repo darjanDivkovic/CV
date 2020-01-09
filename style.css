@@ -14,7 +14,7 @@ body {
 
 .header-container {
     
-    height: 44px;
+    height: 50px;
     background-color: var(--blue);
     display: flex;
     flex-direction: row;
@@ -28,12 +28,13 @@ body {
     
     width: 100px;
     height: 21px;
-    padding-top: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: var(--white);
     border: 3px solid var(--black);
     border-radius: 10px;
     text-align: center;
-    margin-top: 8px;
+    margin-top: 7px;
     margin-right: 5px;
     color: var(--blue);
     font-weight: bold;
