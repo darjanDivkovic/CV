@@ -12,6 +12,11 @@ body {
     margin: 0;
 }
 
+.main-container {
+    display : flex;
+    flex-direction: column;
+}
+
 .header-container {
     
     height: 50px;
@@ -25,7 +30,6 @@ body {
 
 .top-menu-buttons {
 
-    
     width: 100px;
     height: 21px;
     padding-top: 5px;
@@ -39,7 +43,6 @@ body {
     color: var(--blue);
     font-weight: bold;
     
-
 }
 
 .top-menu-buttons:hover {
@@ -52,7 +55,7 @@ body {
 
 .banner-container {
 
-    position: relative;
+    height: 600px;
 }
 
 #banner-background-img {
@@ -60,7 +63,7 @@ body {
     width: 100%;
     height: 600px;
     opacity: 0.7;
-    position:absolute;
+    position: absolute;
     
 }
 
@@ -69,7 +72,7 @@ body {
     height: 100px;
     
     
-    position: absolute;
+    position: relative;
     margin-top: 100px;
     margin-left: 50%;
     transform: translate(-10%);
@@ -79,6 +82,7 @@ body {
 
 #myPicture {
 
+    position: relative;
     width: 250px;
     height: 250px;
     border: 8px solid var(--white);
@@ -98,6 +102,18 @@ h1 {
     
 }
 
+.about-ribon {
+    
+    position: relative;
+    margin-top: 0;
+    background-color: var(--blue);
+    height: 50px;
+    background-color: var(--blue);
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+
+}
 
 
 
