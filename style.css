@@ -4,6 +4,7 @@
     --white:#F5F6F8;
     --blue: #0E69C7; 
     --orange:#E5B41C;
+    --green: #3fff19;
 }
 
 html {
@@ -25,12 +26,13 @@ body {
 #header-container {
     
     height: 50px;
+    width: 100%;
     background-color: var(--blue);
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    opacity: 1;
   
-    
 }
 
 .top-menu-buttons {
@@ -48,7 +50,15 @@ body {
     color: var(--blue);
     font-weight: bold;
     text-decoration: none;
+    transition: 0.7s;
         
+}
+
+#contactButton:hover {
+
+    background-color: var(--green);
+    color: var(--black)
+
 }
 
 .top-menu-buttons:hover {
