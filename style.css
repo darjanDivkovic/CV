@@ -10,6 +10,7 @@ body {
     background-color: var(--black);
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+   
 }
 
 .main-container {
@@ -17,7 +18,7 @@ body {
     flex-direction: column;
 }
 
-.header-container {
+#header-container {
     
     height: 50px;
     background-color: var(--blue);
@@ -42,7 +43,8 @@ body {
     margin-right: 5px;
     color: var(--blue);
     font-weight: bold;
-    
+    text-decoration: none;
+        
 }
 
 .top-menu-buttons:hover {
@@ -102,18 +104,41 @@ h1 {
     
 }
 
-.about-ribon {
+#about-ribon {
     
     position: relative;
     margin-top: 0;
     background-color: var(--blue);
     height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    
+}
+
+.about-section {
+
+    position: relative;
+    background-color: var(--black);
+    height: 500px;
+   
+}
+
+#skills-ribon {
+
+    position: relative;
+    margin-top: 0;
     background-color: var(--blue);
+    height: 50px;
     text-align: center;
     color: white;
     font-size: 2.5em;
 
 }
 
-
+.skills-section {
+    position: relative;
+    background-color: var(--black);
+    height: 500px;
+}
 
