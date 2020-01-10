@@ -6,6 +6,10 @@
     --orange:#E5B41C;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--black);
     font-family: 'Montserrat', sans-serif;
