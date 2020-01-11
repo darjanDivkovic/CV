@@ -156,15 +156,15 @@ h1 {
     background-color: var(--black);
     height: 500px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 
 }
 
 .skill {
-    border: 2px solid white;
+    
     width: 280px;
-    margin-top: 80px;
+    margin-top: 70px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
