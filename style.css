@@ -187,7 +187,19 @@ h1 {
     height: 200px;
     margin-left: 50%;
     transform: translate(-50%);
+    text-align: center;
     
+}
+
+#lower-about-text {
+
+    position: absolute;
+    color: var(--black);
+    margin-top: 40px;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left: 100px;
+        
 }
 
 #skills-ribon {
