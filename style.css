@@ -165,9 +165,9 @@ h1 {
     position: absolute;
     color: white;
     
-    width: 420px;
-    margin-left: 200px;
-    margin-top: 170px;
+    width: 440px;
+    margin-left: 250px;
+    margin-top: 150px;
     font-size: 1.3em;
     
 }
@@ -176,8 +176,20 @@ h1 {
     
     height: 500px;
     margin-top: 20px;
-    margin-left: 770px;
+    margin-left: 720px;
 }
+
+.lower-about-section {
+
+    opacity: 0.9;
+    background-color: var(--orange);
+    width: 90%;
+    height: 200px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    
+}
+
 #skills-ribon {
 
     position: relative;
