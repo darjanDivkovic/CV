@@ -151,10 +151,36 @@ h1 {
 }
 
 .skills-section {
+
     position: relative;
     background-color: var(--black);
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
 }
+
+.skill {
+    border: 2px solid white;
+    width: 280px;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-img {
+    width: 280px;
+}
+
+.skill-text {
+    color: var(--white);
+    font-weight: bold;
+    padding: 5px;
+    font-size: 3em;
+}
+
 
 #contact-ribon {
     position: relative;
@@ -177,3 +203,4 @@ i {
     font-size: 5em;
     margin-left: 50%;
 }
+
