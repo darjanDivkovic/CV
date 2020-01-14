@@ -1,4 +1,5 @@
 body {
+    font-family: sans-serif;
     background-color: #5E35B1;
     margin: 0;
     padding: 0;
@@ -14,8 +15,20 @@ body {
     transform: translate(-50%,-50%);
     text-align: center;
     transition: 0.25s;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
 }
 
 input {
 
+    height: 20px;
+    background: none;
+    text-align: center;
+    margin-top: 7px;
+    border: 2px solid white;
+    border-radius: 7px;
 }
